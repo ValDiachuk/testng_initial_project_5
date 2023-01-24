@@ -30,4 +30,31 @@ public class TGLoginFormPage {
 
     @FindBy(id = "forgot-password")
     public WebElement forgotPassword;
+
+    @FindBy(id = "success_lgn")
+    public WebElement successLdn;
+
+    @FindBy (id = "logout")
+    public WebElement logout;
+
+    @FindBy(id = "sub_heading")
+    public WebElement resetPasswordHeading;
+
+    @FindBy(id = "email")
+    public WebElement enterEmail;
+
+    @FindBy(id = "submit")
+    public WebElement submitBtn;
+
+    @FindBy (xpath = "//label")
+    public WebElement emailEnterMessage;
+
+    @FindBy(id = "confirmation_message")
+    public WebElement confirmationMessage;
+
+    @FindBy(id = "error_message")
+    public WebElement errorMessage;
+
+
+
 }

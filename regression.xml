@@ -5,10 +5,16 @@
         <classes>
             <class name="scripts.TGLoginFormTest">
                 <methods>
-                    <include name="validateLoginForm"/>
+                    <exclude name="validateLoginForm"/>
+                    <exclude name="validateTechGlobalLoginFormCardValidLogin"/>
+                    <exclude name="validateTechGlobalLoginFormCardValidLoginAndLogOut"/>
+                    <exclude name="validateLoginFormForgotPassword"/>
+                    <exclude name="validateLoginFormResetPasswordLink"/>
+                    <exclude name="validateLoginFormWithWrongUN"/>
+                    <exclude name="validateLoginFormInvalidLoginWrongPassword"/>
+                    <exclude name="Validate TechGlobal Login Form card invalid login with both wrong credentials"/>
                 </methods>
             </class>
         </classes>
     </test>
-
 </suite>

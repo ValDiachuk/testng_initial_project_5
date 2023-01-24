@@ -21,7 +21,6 @@ public class TGBase {
         driver.get(ConfigReader.getProperty("appURL"));
         tgBasePage = new TGBasePage();
     }
-
     @AfterMethod
     public void teardown() {
         Driver.quitDriver();
